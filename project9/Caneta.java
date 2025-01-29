@@ -7,6 +7,10 @@ public class Caneta {
     int carga;
     boolean tampada;
 
+    void status(){
+        System.out.println("cor da caneta: " + this.cor);
+      
+    }
     void rabiscar(){}
     void tampar(){}
     void destampar(){}

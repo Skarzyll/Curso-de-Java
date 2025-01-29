@@ -10,5 +10,7 @@ public class Main {
         c1.modelo = "bic";
         c1.ponta = 0.5f;
         c1.tampada = false;
+
+        c1.status();
     }
 }
