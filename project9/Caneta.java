@@ -12,7 +12,7 @@ public class Caneta {
         System.out.println("modelo: " + this.modelo);
         System.out.println("ponta: " + this.ponta);
         System.out.println("carga: " + this.carga + "%");
-        System.out.println("tampada: " + this.tampada);
+        System.out.println("tampada: " + (this.tampada == true ? "Sim" : "Não"));
     }
     void rabiscar(){}
     void tampar(){}
