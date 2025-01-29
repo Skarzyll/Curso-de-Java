@@ -8,6 +8,5 @@ public class Caneta {
     boolean tampada;
 
     void rabiscar(){}
-
     
 }
