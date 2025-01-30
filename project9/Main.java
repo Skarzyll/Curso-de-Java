@@ -9,8 +9,9 @@ public class Main {
         c1.cor = "Azul";
         c1.modelo = "bic";
         c1.ponta = 0.5f;
-        c1.tampada = true;
 
+        c1.tampar();
         c1.status();
+        c1.rabiscar();
     }
 }

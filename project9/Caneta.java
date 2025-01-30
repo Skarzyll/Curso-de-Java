@@ -14,7 +14,20 @@ public class Caneta {
         System.out.println("carga: " + this.carga + "%");
         System.out.println("tampada: " + (this.tampada == true ? "Sim" : "Não"));
     }
-    void rabiscar(){}
-    void tampar(){}
-    void destampar(){}
+    
+    void rabiscar(){
+        if (this.tampada == true){
+            System.out.println("ERRO! Não posso rabiscar");
+        } else {
+            System.out.println("Estou rabiscando");
+        }
+    }
+
+    boolean tampar(){
+        return this.tampada = true;
+    }
+
+    boolean destampar(){
+        return this.tampada = false;
+    }
 }
