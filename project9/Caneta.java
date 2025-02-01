@@ -24,7 +24,7 @@ public class Caneta {
     }
 
     protected boolean tampar(){
-        return this.tampada = true;
+        return this.tampada = true
     }
 
     protected boolean destampar(){
