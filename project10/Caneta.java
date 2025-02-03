@@ -4,7 +4,7 @@ public class Caneta {
     private String modelo;
     private float ponta;
     
-    public String getModelo() {
+    private String getModelo() {
         return modelo;
     }
 
@@ -12,7 +12,7 @@ public class Caneta {
         this.modelo = modelo;
     }
 
-    public float getPonta() {
+    private float getPonta() {
         return ponta;
     }
 
