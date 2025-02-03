@@ -3,7 +3,7 @@ package project11;
 public class Caneta {
     //atributos
     private String  modelo;
-    private float   ponta;
+    private float   ponta
     private String  cor;
     private boolean tampada;
 
