@@ -10,7 +10,7 @@ public class Caneta {
     //metodo construtor
     public Caneta() {
         this.cor = "azul";
-        this.tampada = true;
+        this.tampar();
     }
 
     //metodos especiais
@@ -34,8 +34,8 @@ public class Caneta {
         return cor;
     }
 
-    public void tampar() {
-        this.tampada = true;
+    public boolean tampar() {
+        return true;
     }
 
     public void destampar() {
