@@ -80,5 +80,18 @@ public class Conta {
         return true;
     }
 
+    public boolean depositar(int valor) {
+        
+        if (this.isStatus()) {
+            this.setSaldo(this.getSaldo() + valor);
+            System.out.println("Depósito realizado na conta de " + this.getDono() + " com sucesso.");
+            return true;
+
+        } else {
+            System.out.println("Impossível depositar em uma conta fechada.");
+            return false;
+        }
+    }
+
     
 }
