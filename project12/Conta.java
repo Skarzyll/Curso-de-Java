@@ -5,7 +5,10 @@ public class Conta {
     private int     saldo;
     private boolean status;
 
-  
+    public void Canta() {
+        
+    }
+
     public int getNumConta() {
         return numConta;
     }
