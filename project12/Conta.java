@@ -50,7 +50,7 @@ public class Conta {
         this.status = status;
     }
 
-    public boolean abrirConta(String tipo) {
+    public void abrirConta(String tipo) {
         this.setTipo(tipo);
         this.setStatus(true);
 
@@ -58,13 +58,14 @@ public class Conta {
             this.setSaldo(50);
 
         } else if (tipo.equals("CP")) {
-            this.setSaldo(150);
+            this.setSaldo(100);
 
         }
-        return true;
+
+        System.out.println("Conta aberta com sucesso");
     }
 
-    public boolean fecharConta() {
+    public void fecharConta() {
         if (this.getSaldo() > 0) {
             System.out.println("Conta com dinheiro");
 
@@ -76,8 +77,6 @@ public class Conta {
             System.out.println("Conta fechada com sucesso");
 
         }
-
-        return true;
     }
 
     public boolean depositar(int valor) {
@@ -93,5 +92,16 @@ public class Conta {
         }
     }
 
-    
+    public void sacar(int valor) {
+        if (status == true) {
+            if (saldo >= valor) {
+                saldo -= valor;
+                System.out.println("Saque de R$" + valor + " autorizado na conta de " + dono);
+            } else {
+                System.out.println("Saldo insuficiente para saque");
+            }
+        } else {
+            System.out.println("Impossível sacar de uma conta fechada");
+        }
+    }
 }
