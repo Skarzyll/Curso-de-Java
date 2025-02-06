@@ -64,5 +64,21 @@ public class Conta {
         return true;
     }
 
-        
+    public boolean fecharConta() {
+        if (this.getSaldo() > 0) {
+            System.out.println("Conta com dinheiro");
+
+        } else if (this.getSaldo() < 0) {
+            System.out.println("Conta em débito");
+
+        } else {
+            this.setStatus(false);
+            System.out.println("Conta fechada com sucesso");
+
+        }
+
+        return true;
+    }
+
+    
 }
