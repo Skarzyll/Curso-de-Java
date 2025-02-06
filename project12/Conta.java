@@ -6,7 +6,8 @@ public class Conta {
     private boolean status;
 
     public void Canta() {
-        
+        this.saldo = 0;
+        this.status = false;
     }
 
     public int getNumConta() {
@@ -49,5 +50,19 @@ public class Conta {
         this.status = status;
     }
 
-    
+    public boolean abrirConta(String tipo) {
+        this.setTipo(tipo);
+        this.setStatus(true);
+
+        if (tipo.equals("CC")) {
+            this.setSaldo(50);
+
+        } else if (tipo.equals("CP")) {
+            this.setSaldo(150);
+
+        }
+        return true;
+    }
+
+        
 }
