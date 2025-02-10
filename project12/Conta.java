@@ -5,7 +5,7 @@ public class Conta {
     private int     saldo;
     private boolean status;
 
-    public void Canta() {
+    public Conta() {
         this.saldo = 0;
         this.status = false;
     }
