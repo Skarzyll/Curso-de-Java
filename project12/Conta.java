@@ -104,4 +104,20 @@ public class Conta {
             System.out.println("Impossível sacar de uma conta fechada");
         }
     }
+
+    void pagarMensal() {
+        if (status == true) {
+            int val = 0;
+
+            if (tipo.equals("CC")) {
+                val = 5;
+            } else if (tipo.equals("CP")) {
+                val =10;
+            }
+
+            saldo -= val;
+
+            System.out.println("Mensalidade paga com sucesso por " + dono);
+        }
+    }
 }
