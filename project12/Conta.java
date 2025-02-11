@@ -2,7 +2,7 @@ public class Conta {
     private int     numConta;
     private String  tipo;
     private String  dono;
-    private int     saldo;
+    private float     saldo;
     private boolean status;
 
     public Conta() {
@@ -34,11 +34,11 @@ public class Conta {
         this.dono = dono;
     }
 
-    public int getSaldo() {
+    public float getSaldo() {
         return saldo;
     }
 
-    public void setSaldo(int saldo) {
+    public void setSaldo(float saldo) {
         this.saldo = saldo;
     }
 
