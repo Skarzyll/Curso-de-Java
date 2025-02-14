@@ -4,23 +4,23 @@ public class ContoleRemoto {
     private  int      volume;
     private  boolean  ligado;
     private  boolean  tocando;
-    
-    public int getVolume() {
+
+    private int getVolume() {
         return volume;
     }
-    public void setVolume(int volume) {
+    private void setVolume(int volume) {
         this.volume = volume;
     }
-    public boolean isLigado() {
+    private boolean isLigado() {
         return ligado;
     }
-    public void setLigado(boolean ligado) {
+    private void setLigado(boolean ligado) {
         this.ligado = ligado;
     }
-    public boolean isTocando() {
+    private boolean isTocando() {
         return tocando;
     }
-    public void setTocando(boolean tocando) {
+    private void setTocando(boolean tocando) {
         this.tocando = tocando;
     }
 }
