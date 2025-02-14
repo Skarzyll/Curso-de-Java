@@ -1,9 +1,15 @@
 package project13;
 
-public class ContoleRemoto {
+public class ControleRemoto {
     private  int      volume;
     private  boolean  ligado;
     private  boolean  tocando;
+
+    public void ControleRemoto(){
+        this.volume = 50;
+        this.ligado = false;
+        this.tocando = false;
+    }
 
     private int getVolume() {
         return volume;
@@ -23,4 +29,6 @@ public class ContoleRemoto {
     private void setTocando(boolean tocando) {
         this.tocando = tocando;
     }
+
+    
 }
