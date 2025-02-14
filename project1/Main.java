@@ -1,7 +1,7 @@
 /* import java.util.Scanner; */
 
-public class Main {
-   /*  public static void main(String[] args) {
+/* public class Main {
+    public static void main(String[] args) {
         
         @SuppressWarnings("resource")
         Scanner teclado = new Scanner(System.in);
@@ -15,5 +15,5 @@ public class Main {
         } else if (idade >= 18) {
             System.out.println("Adulto");
         }
-    } */
-}
+    }
+} */

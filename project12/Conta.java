@@ -1,4 +1,4 @@
-public class Conta {
+/* public class Conta {
     private int     numConta;
     private String  tipo;
     private String  dono;
@@ -119,3 +119,4 @@ public class Conta {
         }
     }
 }
+ */
