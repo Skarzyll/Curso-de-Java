@@ -63,4 +63,13 @@ public class ControleRemoto implements Controlador {
             setVolume(getVolume() - 1);
         }
     }
+
+    @Override
+    public void ligarMudo() {
+        if (getLigado() == true && getVolume() > 0) {
+            setVolume(0);
+        }
+    }
+
+    
 }
