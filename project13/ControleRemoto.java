@@ -71,5 +71,12 @@ public class ControleRemoto implements Controlador {
         }
     }
 
+    @Override
+    public void desligarMudo() {
+        if (getLigado() == true && getVolume() == 0) {
+            setVolume(50);
+        }
+    }
+
     
 }
