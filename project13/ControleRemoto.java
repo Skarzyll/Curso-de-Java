@@ -1,11 +1,11 @@
 package project13;
 
-public class ControleRemoto {
+public class ControleRemoto implements Controlador {
     private  int      volume;
     private  boolean  ligado;
     private  boolean  tocando;
 
-    public void ControleRemoto(){
+    public ControleRemoto(){
         this.volume = 50;
         this.ligado = false;
         this.tocando = false;
@@ -17,17 +17,22 @@ public class ControleRemoto {
     private void setVolume(int volume) {
         this.volume = volume;
     }
-    private boolean isLigado() {
+    private boolean getLigado() {
         return ligado;
     }
     private void setLigado(boolean ligado) {
         this.ligado = ligado;
     }
-    private boolean isTocando() {
+    private boolean getTocando() {
         return tocando;
     }
     private void setTocando(boolean tocando) {
         this.tocando = tocando;
+    }
+
+    @Override
+    public void ligar() {
+        setLigado(true);
     }
 
     
