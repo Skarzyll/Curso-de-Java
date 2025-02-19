@@ -50,5 +50,12 @@ public class ControleRemoto implements Controlador {
         System.out.println(getTocando());
     }
 
+    @Override
+    public void maisVolume() {
+        if (getLigado() == true) {
+            setVolume(getVolume() + 1);
+        }
+    }
+
     
 }
