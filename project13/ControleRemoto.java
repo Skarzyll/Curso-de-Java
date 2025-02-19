@@ -35,5 +35,10 @@ public class ControleRemoto implements Controlador {
         setLigado(true);
     }
 
+    @Override
+    public void desligar() {
+        setLigado(false);
+    }
+
     
 }
