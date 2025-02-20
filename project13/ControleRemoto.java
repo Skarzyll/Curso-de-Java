@@ -91,5 +91,9 @@ public class ControleRemoto implements Controlador {
         }
     }
 
-    
+    public void pause() {
+        if (getLigado() == true && getTocando() == true) {
+            setTocando(false);
+        }
+    }
 }
