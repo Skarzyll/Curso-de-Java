@@ -42,12 +42,18 @@ public class ControleRemoto implements Controlador {
 
     @Override
     public void abrirMenu() {
-        System.out.println(getLigado());
+        System.out.println(getLigado() ? "Ligado" : "Desligado");
         System.out.println(getVolume());
-        for (int i = 0; i < getVolume(); i =+ 10) {
-            System.out.println("|");
+        for (int i = 0; i <= getVolume(); i = i + 10) {
+            System.out.print("|");
         }
-        System.out.println(getTocando());
+        System.out.println("");
+        System.out.println(getTocando() ? "Tocando" : "Nao esta tocando");
+    }
+
+    @Override
+    public void fecharMenu() {
+        System.out.println("Fechando Menu...");
     }
 
     @Override
@@ -75,6 +81,13 @@ public class ControleRemoto implements Controlador {
     public void desligarMudo() {
         if (getLigado() == true && getVolume() == 0) {
             setVolume(50);
+        }
+    }
+
+    @Override
+    public void play() {
+        if (getLigado() == true && !getTocando()) {
+            setTocando(true);
         }
     }
 
