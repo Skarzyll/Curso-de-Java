@@ -11,6 +11,13 @@ public class Main {
             c1.maisVolume();
         }
         c1.abrirMenu();
+        c1.pause();
+        c1.play();
+        c1.menosVolume();
+        c1.ligarMudo();
+        c1.desligarMudo();
+        c1.abrirMenu();
         c1.fecharMenu();
+        c1.desligar();
     }
 }
