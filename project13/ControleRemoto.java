@@ -32,23 +32,23 @@ public class ControleRemoto implements Controlador {
 
     @Override
     public void ligar() {
-        setLigado(true);
+        this.setLigado(true);
     }
 
     @Override
     public void desligar() {
-        setLigado(false);
+        this.setLigado(false);
     }
 
     @Override
     public void abrirMenu() {
-        System.out.println(getLigado() ? "Ligado" : "Desligado");
-        System.out.println(getVolume());
-        for (int i = 0; i <= getVolume(); i = i + 10) {
+        System.out.println(this.getLigado() ? "Ligado" : "Desligado");
+        System.out.println(this.getVolume());
+        for (int i = 0; i <= this.getVolume(); i = i + 10) {
             System.out.print("|");
         }
         System.out.println("");
-        System.out.println(getTocando() ? "Tocando" : "Nao esta tocando");
+        System.out.println(this.getTocando() ? "Tocando" : "Nao esta tocando");
     }
 
     @Override
@@ -58,42 +58,42 @@ public class ControleRemoto implements Controlador {
 
     @Override
     public void maisVolume() {
-        if (getLigado() == true) {
-            setVolume(getVolume() + 1);
+        if (this.getLigado()) {
+            this.setVolume(getVolume() + 1);
         }
     }
 
     @Override
     public void menosVolume() {
-        if (getLigado() == true) {
-            setVolume(getVolume() - 1);
+        if (this.getLigado()) {
+            this.setVolume(getVolume() - 1);
         }
     }
 
     @Override
     public void ligarMudo() {
-        if (getLigado() == true && getVolume() > 0) {
-            setVolume(0);
+        if (this.getLigado() && getVolume() > 0) {
+            this.setVolume(0);
         }
     }
 
     @Override
     public void desligarMudo() {
-        if (getLigado() == true && getVolume() == 0) {
-            setVolume(50);
+        if (this.getLigado() && getVolume() == 0) {
+            this.setVolume(50);
         }
     }
 
     @Override
     public void play() {
-        if (getLigado() == true && !getTocando()) {
-            setTocando(true);
+        if (this.getLigado() && !this.getTocando()) {
+            this.setTocando(true);
         }
     }
 
     public void pause() {
-        if (getLigado() == true && getTocando() == true) {
-            setTocando(false);
+        if (this.getLigado() && this.getTocando() == true) {
+            this.setTocando(false);
         }
     }
 }
