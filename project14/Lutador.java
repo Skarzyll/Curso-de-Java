@@ -1,6 +1,6 @@
 package project14;
 
-public class Lutador {
+public class Lutador implements InteLutador{
     private String nome;
     private String nacionalidade;
     private int    idade;
@@ -10,6 +10,20 @@ public class Lutador {
     private int    vitorias;
     private int    derrotas;
     private int    empates;
+
+    public Lutador(
+        String no,
+        String na,
+        int     i,
+        float  al,
+        float   p,
+        String ca,
+        int    vi,
+        int    de,
+        int    em
+    ) {
+        
+    }
 
     public String getNome() {
         return nome;
