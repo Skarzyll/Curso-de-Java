@@ -17,7 +17,6 @@ public class Lutador implements InteLutador{
         int     i,
         float  al,
         float   p,
-        String ca,
         int    vi,
         int    de,
         int    em
