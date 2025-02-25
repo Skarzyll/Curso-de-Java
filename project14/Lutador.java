@@ -1,36 +1,34 @@
 package project14;
 
-public class Lutador implements InteLutador{
+public class Lutador implements InteLutador {
     private String nome;
     private String nacionalidade;
-    private int    idade;
-    private float  altura;
-    private float  peso;
+    private int idade;
+    private float altura;
+    private float peso;
     private String categoria;
-    private int    vitorias;
-    private int    derrotas;
-    private int    empates;
+    private int vitorias;
+    private int derrotas;
+    private int empates;
 
     public Lutador(
-        String no,
-        String na,
-        int     i,
-        float  al,
-        float   p,
-        int    vi,
-        int    de,
-        int    em
-    ) {
-        nome =          no;
+            String no,
+            String na,
+            int i,
+            float al,
+            float p,
+            int vi,
+            int de,
+            int em) {
+        nome = no;
         nacionalidade = na;
-        idade =         i;
-        altura =        al;
+        idade = i;
+        altura = al;
         setPeso(p);
-        vitorias =      vi;
-        derrotas =      de;
-        empates =       em;
+        vitorias = vi;
+        derrotas = de;
+        empates = em;
 
-        
     }
 
     public String getNome() {
@@ -82,11 +80,14 @@ public class Lutador implements InteLutador{
         if (peso < 52.2) {
             setPeso(peso);
             setCategoria("INV");
-        } if (peso <= 70.3 ) {
+        }
+        if (peso <= 70.3) {
             setCategoria("PL");
-        } if (peso <= 83.9) {
+        }
+        if (peso <= 83.9) {
             setCategoria("PM");
-        } if (peso <= 120.2) {
+        }
+        if (peso <= 120.2) {
             setCategoria("PP");
         } else {
             setCategoria("INV");
@@ -127,5 +128,14 @@ public class Lutador implements InteLutador{
         System.out.printf("Ganhou: ", getVitorias());
         System.out.printf("Derrotas: ", getDerrotas());
         System.out.printf("Empates: ", getEmpates());
+    }
+
+    @Override
+    public void status() {
+        System.out.println(getNome());
+        System.out.printf("É um peso categoria: ", getCategoria());
+        System.out.printf("", getVitorias(), " vitorias");
+        System.out.printf("", getDerrotas(), " derrotas");
+        System.out.printf("", getEmpates(), " empates");
     }
 }
