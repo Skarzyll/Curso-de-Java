@@ -21,6 +21,15 @@ public class Lutador implements InteLutador{
         int    de,
         int    em
     ) {
+        nome =          no;
+        nacionalidade = na;
+        idade =         i;
+        altura =        al;
+        setPeso(p);
+        vitorias =      vi;
+        derrotas =      de;
+        empates =       em;
+
         
     }
 
@@ -62,6 +71,7 @@ public class Lutador implements InteLutador{
 
     public void setPeso(float peso) {
         this.peso = peso;
+        setCategoria(categoria);
     }
 
     public String getCategoria() {
@@ -69,7 +79,18 @@ public class Lutador implements InteLutador{
     }
 
     public void setCategoria(String categoria) {
-        this.categoria = categoria;
+        if (peso < 52.2) {
+            setPeso(peso);
+            setCategoria("INV");
+        } if (peso <= 70.3 ) {
+            setCategoria("PL");
+        } if (peso <= 83.9) {
+            setCategoria("PM");
+        } if (peso <= 120.2) {
+            setCategoria("PP");
+        } else {
+            setCategoria("INV");
+        }
     }
 
     public int getVitorias() {
@@ -95,4 +116,6 @@ public class Lutador implements InteLutador{
     public void setEmpates(int empates) {
         this.empates = empates;
     }
+
+  
 }
