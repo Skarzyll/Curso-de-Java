@@ -117,5 +117,15 @@ public class Lutador implements InteLutador{
         this.empates = empates;
     }
 
-  
+    @Override
+    public void apresentar() {
+        System.out.printf("Lutador: ", getNome());
+        System.out.printf("Origem: ", getNacionalidade());
+        System.out.printf("", getIdade(), " idade");
+        System.out.printf("", getAltura(), "m de altura");
+        System.out.printf("Pesando: ", getPeso(), "kg");
+        System.out.printf("Ganhou: ", getVitorias());
+        System.out.printf("Derrotas: ", getDerrotas());
+        System.out.printf("Empates: ", getEmpates());
+    }
 }
