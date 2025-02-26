@@ -54,7 +54,7 @@ public class Lutador implements InteLutador {
         this.idade = idade;
     }
 
-    public float getAltura() {
+    public double getAltura() {
         return altura;
     }
 
