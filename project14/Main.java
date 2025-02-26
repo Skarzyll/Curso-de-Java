@@ -8,6 +8,21 @@ public class Main {
 
         lutadores[1] = new Lutador("Lucas", "Americano", 23, 1.65f, 111f, 5, 7, 8);
 
+        lutadores[0].ganharLuta();
+        lutadores[0].ganharLuta();
+        lutadores[0].ganharLuta();
+        lutadores[1].ganharLuta();
+        lutadores[1].ganharLuta();
+        lutadores[1].ganharLuta();
+
+        lutadores[0].perderLuta();
+        lutadores[1].perderLuta();
+        lutadores[1].perderLuta();
+
+        lutadores[0].empatarLuta();
+        lutadores[1].empatarLuta();
+        lutadores[1].empatarLuta();
+
         lutadores[0].apresentar();
         lutadores[1].apresentar();
 
