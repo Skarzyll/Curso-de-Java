@@ -14,14 +14,14 @@ public class Lutador implements InteLutador {
             int vi,
             int de,
             int em) {
-        nome = no;
-        nacionalidade = na;
-        idade = i;
-        altura = al;
-        setPeso(p);
-        vitorias = vi;
-        derrotas = de;
-        empates = em;
+        this.nome = no;
+        this.nacionalidade = na;
+        this.idade = i;
+        this.altura = al;
+        this.setPeso(p);
+        this.vitorias = vi;
+        this.derrotas = de;
+        this.empates = em;
     }
 
     public String getNome() {
