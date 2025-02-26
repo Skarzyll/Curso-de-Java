@@ -62,28 +62,27 @@ public class Lutador implements InteLutador {
 
     public void setPeso(float peso) {
         this.peso = peso;
-        setCategoria(this.categoria);
+        this.setCategoria();
     }
 
     public String getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(String categoria) {
+    public void setCategoria() {
         if (this.peso < 52.2) {
-            this.setPeso(peso);
-            this.setCategoria("INV");
+            this.categoria = "INV";
         }
-        if (this.peso <= 70.3) {
-            this.setCategoria("PL");
+        if (this.peso < 70.3) {
+            this.categoria = "PL";
         }
-        if (this.peso <= 83.9) {
-            this.setCategoria("PM");
+        if (this.peso < 83.9) {
+            this.categoria = "PM";
         }
-        if (this.peso <= 120.2) {
-            this.setCategoria("PP");
+        if (this.peso < 120.2) {
+            this.categoria = "PP";
         } else {
-            this.setCategoria("INV");
+            this.categoria = "INV";
         }
     }
 
