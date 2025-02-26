@@ -4,7 +4,7 @@ public class Lutador implements InteLutador {
     private String nome;
     private String nacionalidade;
     private int idade;
-    private float altura;
+    private double altura;
     private float peso;
     private String categoria;
     private int vitorias;
@@ -15,7 +15,7 @@ public class Lutador implements InteLutador {
             String no,
             String na,
             int i,
-            float al,
+            double al,
             float p,
             int vi,
             int de,
@@ -28,7 +28,6 @@ public class Lutador implements InteLutador {
         vitorias = vi;
         derrotas = de;
         empates = em;
-
     }
 
     public String getNome() {
@@ -137,5 +136,10 @@ public class Lutador implements InteLutador {
         System.out.printf("", getVitorias(), " vitorias");
         System.out.printf("", getDerrotas(), " derrotas");
         System.out.printf("", getEmpates(), " empates");
+    }
+
+    @Override
+    public void ganharLuta() {
+        setVitorias(getVitorias() + 1);
     }
 }
