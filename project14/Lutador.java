@@ -1,21 +1,15 @@
 package project14;
 
 public class Lutador implements InteLutador {
-    private String nome;
-    private String nacionalidade;
-    private int idade;
-    private double altura;
-    private float peso;
-    private String categoria;
-    private int vitorias;
-    private int derrotas;
-    private int empates;
+    private String nome, nacionalidade, categoria;
+    private int idade, vitorias, derrotas, empates;
+    private float altura, peso;
 
     public Lutador(
             String no,
             String na,
             int i,
-            double al,
+            float al,
             float p,
             int vi,
             int de,
@@ -54,7 +48,7 @@ public class Lutador implements InteLutador {
         this.idade = idade;
     }
 
-    public double getAltura() {
+    public float getAltura() {
         return altura;
     }
 
