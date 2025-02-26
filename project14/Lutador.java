@@ -147,4 +147,9 @@ public class Lutador implements InteLutador {
     public void perderLuta() {
         setDerrotas(getDerrotas() + 1);
     }
+
+    @Override
+    public void empatarLuta() {
+        setEmpates(getEmpates() + 1);
+    }
 }
