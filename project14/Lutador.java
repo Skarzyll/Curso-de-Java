@@ -142,4 +142,9 @@ public class Lutador implements InteLutador {
     public void ganharLuta() {
         setVitorias(getVitorias() + 1);
     }
+
+    @Override
+    public void perderLuta() {
+        setDerrotas(getDerrotas() + 1);
+    }
 }
