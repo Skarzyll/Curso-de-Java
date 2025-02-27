@@ -41,5 +41,11 @@ public class Luta{
         this.aprovada = aprovada;
     }
 
-    
+    public void marcarLuta() {
+
+    }
+
+    public void lutar() {
+        
+    }
 }
