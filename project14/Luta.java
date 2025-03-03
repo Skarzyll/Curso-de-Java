@@ -1,7 +1,7 @@
 package project14;
 
 public class Luta{
-    private String  desafiado, desafiante;
+    private Lutador  desafiado, desafiante;
     private int     rounds;
     private boolean aprovada;
 
@@ -9,19 +9,19 @@ public class Luta{
         
     }
 
-    public String getDesafiado() {
+    public Lutador getDesafiado() {
         return desafiado;
     }
 
-    public void setDesafiado(String desafiado) {
+    public void setDesafiado(Lutador desafiado) {
         this.desafiado = desafiado;
     }
 
-    public String getDesafiante() {
+    public Lutador getDesafiante() {
         return desafiante;
     }
 
-    public void setDesafiante(String desafiante) {
+    public void setDesafiante(Lutador desafiante) {
         this.desafiante = desafiante;
     }
 
