@@ -1,5 +1,6 @@
 package project14;
 
+import java.math.*;
 public class Luta{
     private Lutador  desafiado, desafiante;
     private int     rounds;
@@ -56,6 +57,34 @@ public class Luta{
     }
 
     public void lutar() {
-        
+        if (aprovada) {
+            desafiado.apresentar();
+            desafiante.apresentar();
+            double vencedor = Math.random() * 2 + 1f;
+
+            switch (vencedor) {
+                case 0:
+                    desafiado.empatarLuta();
+                    desafiante.empatarLuta();
+                    System.out.println("Empatado!");
+                    break;
+
+                case 1:
+                    System.out.println(desafiado.getNome());
+                    desafiado.ganharLuta();
+                    desafiante.perderLuta();
+                    break;
+
+                case 2: 
+                    System.out.println(desafiante.getNome());
+                    desafiante.ganharLuta();
+                    desafiado.perderLuta();
+                    break;
+
+                default:
+                    System.out.println("Luta nao pode acontecer!");
+                    break;
+            }
+        }
     }
 }
