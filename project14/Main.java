@@ -1,4 +1,5 @@
 package project14;
+
 public class Main {
     public static void main(String[] args) {
         Lutador lutadores[] = new Lutador[2];
