@@ -2,13 +2,13 @@ package project14;
 
 import java.util.Random;
 
-public class Luta{
-    private Lutador  desafiado, desafiante;
-    private int     rounds;
+public class Luta {
+    private Lutador desafiado, desafiante;
+    private int rounds;
     private boolean aprovada;
 
     public Luta() {
-        
+
     }
 
     public Lutador getDesafiado() {
@@ -44,12 +44,11 @@ public class Luta{
     }
 
     public void marcarLuta(Lutador L1, Lutador L2) {
-        if (L1.getCategoria().equals(L2.getCategoria())) {
-            if (L1 != L2) {
-                this.aprovada = true;
-                this.desafiado = L1;
-                this.desafiante = L2;
-            }
+        if (L1.getCategoria().equals(L2.getCategoria()) && L1 != L2) {
+            this.aprovada = true;
+            this.desafiado = L1;
+            this.desafiante = L2;
+
         } else {
             this.aprovada = false;
             this.desafiado = null;
@@ -61,6 +60,7 @@ public class Luta{
         if (this.aprovada) {
             this.desafiado.apresentar();
             this.desafiante.apresentar();
+            System.out.println("-----------#LUTA APROVADA#------------");
             Random ale = new Random();
             int vencedor = ale.nextInt(3);
 
@@ -77,8 +77,8 @@ public class Luta{
                     this.desafiante.perderLuta();
                     break;
 
-                case 2: 
-                    System.out.println(this.desafiante.getNome()  + " ganhou a luta!!");
+                case 2:
+                    System.out.println(this.desafiante.getNome() + " ganhou a luta!!");
                     this.desafiante.ganharLuta();
                     this.desafiado.perderLuta();
                     break;
@@ -87,6 +87,8 @@ public class Luta{
                     System.out.println("Luta nao pode acontecer!");
                     break;
             }
+        } else {
+            System.out.println("-----------------#LUTA DESAPROVADA#-----------------");
         }
     }
 }
