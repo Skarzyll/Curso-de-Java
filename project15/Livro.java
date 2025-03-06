@@ -1,4 +1,4 @@
-public class Livro {
+public class Livro implements Publicacao {
     private String  titulo, autor, leitor;
     private int     totpaginas, pagatual;
     private boolean aberto;
@@ -52,6 +52,31 @@ public class Livro {
     }
 
     public void detalhes() {
+        
+    }
+
+    @Override
+    public void abrir() {
+        
+    }
+
+    @Override
+    public void fechar() {
+        
+    }
+
+    @Override
+    public void folhear() {
+        
+    }
+
+    @Override
+    public void avancarPag() {
+        
+    }
+
+    @Override
+    public void voltarPag() {
         
     }
 }
