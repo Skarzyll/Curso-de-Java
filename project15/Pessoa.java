@@ -27,6 +27,6 @@ public class Pessoa {
     }
 
     public void fazerAniversario() {
-        
+        this.idade++;
     }
 }

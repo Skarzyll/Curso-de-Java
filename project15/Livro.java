@@ -1,6 +1,7 @@
 public class Livro implements Publicacao {
-    private String  titulo, autor, leitor;
+    private String  titulo, autor;
     private int     totpaginas, pagatual;
+    private Pessoa  leitor;
     private boolean aberto;
 
     public String getTitulo() {
@@ -19,11 +20,11 @@ public class Livro implements Publicacao {
         this.autor = autor;
     }
 
-    public String getLeitor() {
+    public Pessoa getLeitor() {
         return leitor;
     }
 
-    public void setLeitor(String leitor) {
+    public void setLeitor(Pessoa leitor) {
         this.leitor = leitor;
     }
 
