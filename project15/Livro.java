@@ -4,6 +4,15 @@ public class Livro implements Publicacao {
     private Pessoa  leitor;
     private boolean aberto;
 
+    public Livro(String titulo, String autor, int totpaginas, int pagatual, Pessoa leitor, boolean aberto) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.totpaginas = totpaginas;
+        this.pagatual = pagatual;
+        this.leitor = leitor;
+        this.aberto = aberto;
+    }
+
     public String getTitulo() {
         return titulo;
     }
@@ -52,8 +61,8 @@ public class Livro implements Publicacao {
         this.aberto = aberto;
     }
 
-    public void detalhes() {
-        
+    public String detalhes() {
+        return "Livro{" + "titulo =" + titulo + ", autor =" + autor + ", totPaginas = " + totpaginas + ", pagAtual = " + pagatual + ", aberto = " + aberto + ", leitor = " + leitor + "}";
     }
 
     @Override
