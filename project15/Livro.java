@@ -89,6 +89,6 @@ public class Livro implements Publicacao {
 
     @Override
     public void voltarPag() {
-        
+        this.pagAtual--;
     }
 }
