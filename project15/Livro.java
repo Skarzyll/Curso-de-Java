@@ -67,12 +67,14 @@ public class Livro implements Publicacao {
 
     @Override
     public void abrir() {
-        
+        this.aberto = true;
+        System.out.println("O livro esta aberto!");
     }
 
     @Override
     public void fechar() {
-        
+        this.aberto = false;
+        System.out.println("O livro esta fechado!");
     }
 
     @Override
