@@ -62,7 +62,7 @@ public class Livro implements Publicacao {
     }
 
     public String detalhes() {
-        return "Livro{" + "titulo =" + titulo + ", autor =" + autor + ", totPaginas = " + totPaginas + ", pagAtual = " + pagAtual + ", aberto = " + aberto + ", leitor = " + leitor + "}";
+        return "Livro{ " + "titulo = " + titulo + ", autor = " + autor + ", totPaginas = " + totPaginas + ", pagAtual = " + pagAtual + ", aberto = " + aberto + ", leitor = " + leitor.getNome() + " }";
     }
 
     @Override
@@ -79,7 +79,11 @@ public class Livro implements Publicacao {
 
     @Override
     public void folhear(int pag) {
-        this.pagAtual = pag;
+        if (pag <= this.totPaginas) {
+            this.pagAtual = pag;
+        } else {
+            this.pagAtual = 0;
+        }
     }
 
     @Override
