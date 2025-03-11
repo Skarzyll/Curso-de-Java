@@ -8,9 +8,9 @@ public class Livro implements Publicacao {
         this.titulo = titulo;
         this.autor = autor;
         this.totPaginas = totpaginas;
-        this.pagAtual = pagatual;
+        this.pagAtual = 0;
         this.leitor = leitor;
-        this.aberto = aberto;
+        this.aberto = false;
     }
 
     public String getTitulo() {
