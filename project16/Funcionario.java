@@ -1,4 +1,4 @@
-public class Funcionario extends Pessoa {
+/* public class Funcionario extends Pessoa {
     private String  setor;
     private boolean trabalhando;
 
@@ -22,3 +22,4 @@ public class Funcionario extends Pessoa {
         this.trabalhando = ! this.trabalhando;
     }
 }
+ */

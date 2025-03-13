@@ -1,4 +1,4 @@
-public class Professor extends Pessoa {
+/* public class Professor extends Pessoa {
     private String especialidade;
     private float    salario;
 
@@ -22,3 +22,4 @@ public class Professor extends Pessoa {
         this.salario = this.salario + val;
     }
 }
+ */

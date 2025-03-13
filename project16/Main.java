@@ -1,4 +1,4 @@
-public class Main {
+/* public class Main {
     public static void main(String[] args) {
         Pessoa p1 = new Pessoa();
         Professor p2 = new Professor();
@@ -15,3 +15,4 @@ public class Main {
         p4.setCurso("TI");
     }
 }
+ */

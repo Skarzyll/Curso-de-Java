@@ -1,4 +1,4 @@
-public class Pessoa {
+/* public class Pessoa {
     private String nome, sexo;
     private int    idade;
 
@@ -29,4 +29,4 @@ public class Pessoa {
     public void fazerAniversario() {
         this.idade++;
     }
-}
+} */
