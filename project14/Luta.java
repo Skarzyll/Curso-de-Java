@@ -1,4 +1,4 @@
-package project14;
+/* package project14;
 
 import java.util.Random;
 
@@ -92,3 +92,4 @@ public class Luta {
         }
     }
 }
+ */

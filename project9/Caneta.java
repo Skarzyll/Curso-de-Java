@@ -1,4 +1,4 @@
-package project9;
+/* package project9;
 
 public class Caneta {
     public    String  modelo;
@@ -31,3 +31,4 @@ public class Caneta {
         return this.tampada = false;
     }
 }
+ */

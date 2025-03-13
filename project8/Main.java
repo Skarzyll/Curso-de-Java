@@ -1,4 +1,4 @@
-package project8;
+/* package project8;
 
 public class Main {
     static int soma(int a, int b) {
@@ -12,3 +12,4 @@ public class Main {
         System.out.println(res);
     }
 }
+ */

@@ -1,4 +1,4 @@
-package project14;
+/* package project14;
 
 public class Lutador implements InteLutador {
     private String nome, nacionalidade, categoria;
@@ -147,4 +147,4 @@ public class Lutador implements InteLutador {
     public void empatarLuta() {
         this.setEmpates(this.getEmpates() + 1);
     }
-}
+} */

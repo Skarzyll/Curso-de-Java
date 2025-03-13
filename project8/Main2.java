@@ -1,4 +1,4 @@
-package project8;
+/* package project8;
 
 public class Main2 {
     public static int main(int a, int b) {
@@ -7,3 +7,4 @@ public class Main2 {
         return s;
     }
 }
+ */

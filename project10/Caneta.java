@@ -1,4 +1,4 @@
-package project10;
+/* package project10;
 
 public class Caneta {
     private String modelo;
@@ -26,3 +26,4 @@ public class Caneta {
         System.out.println("Ponta: " + this.getPonta());
     }
 }
+ */

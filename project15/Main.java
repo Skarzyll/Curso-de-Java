@@ -1,4 +1,4 @@
-public class Main {
+/* class Main {
     public static void main(String[] args) {
         Pessoa[] p = new Pessoa[3];
         Livro[] l = new Livro[3]; 
@@ -8,4 +8,4 @@ public class Main {
 
         System.out.println(l[0].detalhes());
     }
-}
+} */

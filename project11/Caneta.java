@@ -1,4 +1,4 @@
-package project11;
+/* package project11;
 
 public class Caneta {
     //atributos
@@ -50,3 +50,4 @@ public class Caneta {
         System.out.println("Tampada: " + (this.tampada == true ? "Sim" : "Não"));
     }
 }
+ */

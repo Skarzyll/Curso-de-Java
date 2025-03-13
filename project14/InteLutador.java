@@ -1,4 +1,4 @@
-package project14;
+/* package project14;
 
 public interface InteLutador {
     abstract void apresentar();
@@ -7,3 +7,4 @@ public interface InteLutador {
     abstract void perderLuta();
     abstract void empatarLuta();
 }
+ */

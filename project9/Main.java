@@ -1,4 +1,4 @@
-package project9;
+/* package project9;
 
 public class Main {
 
@@ -14,4 +14,4 @@ public class Main {
         c1.status();
         c1.rabiscar();
     }
-}
+} */

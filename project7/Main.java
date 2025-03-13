@@ -1,4 +1,4 @@
-package project7;
+/* package project7;
 
 import java.util.Calendar;
 
@@ -12,4 +12,4 @@ public class Main {
 
         System.out.println(HOUR);
     }
-}
+} */

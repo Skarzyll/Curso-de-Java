@@ -1,4 +1,4 @@
-public class Livro implements Publicacao {
+/* public class Livro implements Publicacao {
     private String  titulo, autor;
     private int     totPaginas, pagAtual;
     private Pessoa  leitor;
@@ -96,3 +96,4 @@ public class Livro implements Publicacao {
         this.pagAtual--;
     }
 }
+ */

@@ -1,4 +1,4 @@
-package project13;
+/* package project13;
 
 public interface Controlador {
     public abstract void ligar();
@@ -12,3 +12,4 @@ public interface Controlador {
     public abstract void play();
     public abstract void pause();
 }
+ */

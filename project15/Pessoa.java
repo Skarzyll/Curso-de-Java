@@ -1,4 +1,4 @@
-public class Pessoa {
+/* public class Pessoa {
     private String  nome, sexo;
     private int     idade;
     
@@ -36,3 +36,4 @@ public class Pessoa {
         this.idade++;
     }
 }
+ */

@@ -1,4 +1,4 @@
-package project11;
+/* package project11;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,3 +7,4 @@ public class Main {
         c1.status();
     }
 }
+ */
