@@ -19,6 +19,6 @@ public class Aluno extends Pessoa{
     }
 
     public void pagarMensa() {
-        
+        System.out.println("Ta pago!");
     }
 }
