@@ -1,4 +1,4 @@
-public class Tecnico extends Pessoa {
+public class Tecnico {
     private String registroProfissional;
 
     public String getRegistroProfissional() {
