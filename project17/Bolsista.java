@@ -1,4 +1,4 @@
-public class Bolsista {
+public class Bolsista extends Pessoa {
     private float Bolsa;
 
     public float getBolsa() {
