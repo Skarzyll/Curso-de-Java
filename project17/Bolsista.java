@@ -10,10 +10,10 @@ public class Bolsista extends Pessoa {
     }
 
     public void renovarBolsa() {
-
+        System.out.println("Bolsa renovada!");
     }
 
     public void pagarMensa() {
-        
+        System.out.println("Mensalidade paga!");
     }
 }
