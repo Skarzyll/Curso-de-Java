@@ -1,5 +1,5 @@
 //Subclass
-public class Bolsista extends Pessoa {
+public class Bolsista extends Aluno {
     private float Bolsa;
 
     public float getBolsa() {
