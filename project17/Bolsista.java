@@ -1,3 +1,4 @@
+//Subclass
 public class Bolsista extends Pessoa {
     private float Bolsa;
 

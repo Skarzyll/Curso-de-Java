@@ -1,3 +1,4 @@
+//subclass
 public class Tecnico {
     private String registroProfissional;
 

@@ -1,3 +1,4 @@
+//subclass
 public class Professor {
     private String especialista;
     private int    salario;

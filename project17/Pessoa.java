@@ -1,3 +1,4 @@
+//Super-Class
 public abstract class Pessoa {
     private String nome, sexo;
     private int    idade;
