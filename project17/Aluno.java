@@ -29,6 +29,4 @@ public class Aluno extends Pessoa{
         return "Aluno [matricula=" + matricula + ", curso=" + curso + ", getNome()=" + getNome() + ", getSexo()="
                 + getSexo() + ", getIdade()=" + getIdade() + "]";
     }
-
-    
 }
