@@ -8,7 +8,7 @@ public class Main {
         v1.setSexo("M");
         v1.fazerAniversario();
         System.out.println(v1.toString());
-        
+
         Aluno a1 = new Aluno();
         a1.setNome("Carlos");
         a1.setIdade(20);
@@ -19,6 +19,13 @@ public class Main {
         a1.pagarMensa();
         System.out.println(a1.toString());
 
-        
+        Bolsista b1 = new Bolsista();
+        b1.setNome("Cassandra");
+        b1.setIdade(23);
+        b1.setSexo("F");
+        b1.setCurso("TI");
+        b1.pagarMensa();
+        b1.renovarBolsa();
+        System.out.println(b1.toString());
     }
 }

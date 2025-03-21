@@ -1,5 +1,5 @@
 //subclass
-public class Tecnico {
+public class Tecnico extends Pessoa {
     private String registroProfissional;
 
     public String getRegistroProfissional() {
