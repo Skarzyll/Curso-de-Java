@@ -1,4 +1,4 @@
-//Subclass
+/* //Subclass
 public class Aluno extends Pessoa {
     private int matricula;
     private String curso;
@@ -30,3 +30,4 @@ public class Aluno extends Pessoa {
                 + getSexo() + ", getIdade()=" + getIdade() + "]";
     }
 }
+ */

@@ -1,4 +1,4 @@
-public class Main {
+/* public class Main {
     public static void main(String[] args) {
         //Pessoa p1 = new Pessoa();
 
@@ -28,4 +28,4 @@ public class Main {
         b1.renovarBolsa();
         System.out.println(b1.toString());
     }
-}
+} */

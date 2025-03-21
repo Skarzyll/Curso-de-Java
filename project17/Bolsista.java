@@ -1,4 +1,4 @@
-//Subclass
+/* //Subclass
 public class Bolsista extends Aluno {
     private float Bolsa;
 
@@ -18,3 +18,4 @@ public class Bolsista extends Aluno {
         System.out.println("Mensalidade paga!");
     }
 }
+ */

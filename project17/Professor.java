@@ -1,4 +1,4 @@
-//subclass
+/* //subclass
 public class Professor extends Pessoa {
     private String especialista;
     private int    salario;
@@ -23,3 +23,4 @@ public class Professor extends Pessoa {
         this.salario = this.salario + p;
     }
 }
+ */

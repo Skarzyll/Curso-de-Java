@@ -1,4 +1,4 @@
-//subclass
+/* //subclass
 public class Tecnico extends Pessoa {
     private String registroProfissional;
 
@@ -14,3 +14,4 @@ public class Tecnico extends Pessoa {
         
     }
 }
+ */

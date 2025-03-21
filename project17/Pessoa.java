@@ -1,4 +1,4 @@
-//Super-Class
+/* //Super-Class
 public abstract class Pessoa {
     private String nome, sexo;
     private int    idade;
@@ -31,3 +31,4 @@ public abstract class Pessoa {
         return "Pessoa [nome=" + nome + ", sexo=" + sexo + ", idade=" + idade + "]";
     }
 }
+ */
