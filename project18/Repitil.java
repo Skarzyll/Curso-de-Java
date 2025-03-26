@@ -1,4 +1,4 @@
-public class Repitil {
+public class Repitil extends Animal {
     private String corEscama;
 
     public String getCorEscama() {
