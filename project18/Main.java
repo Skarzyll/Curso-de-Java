@@ -22,6 +22,16 @@ public class Main {
         r1.alimentar();
         r1.emitirSom();
 
+        Peixe p1 = new Peixe();
+
+        p1.setIdade(2);
+        p1.setPeso(0.300f);
+        p1.setMembros(4);
+        p1.setCorEscama("Marrom");
+        p1.locomover();
+        p1.alimentar();
+        p1.emitirSom();
+
         
     }
 }
