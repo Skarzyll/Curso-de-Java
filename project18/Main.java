@@ -12,6 +12,8 @@ public class Main {
         m1.alimentar();
         m1.emitirSom();
 
+        System.out.println("---------%%--------");
+
         Reptil r1 = new Reptil();
 
         r1.setIdade(2);
@@ -21,6 +23,8 @@ public class Main {
         r1.locomover();
         r1.alimentar();
         r1.emitirSom();
+
+        System.out.println("---------%%--------");
 
         Peixe p1 = new Peixe();
 
@@ -32,6 +36,8 @@ public class Main {
         p1.locomover();
         p1.alimentar();
         p1.emitirSom();
+
+        System.out.println("---------%%--------");
 
         Ave av1 = new Ave();
 
