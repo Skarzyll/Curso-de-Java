@@ -9,7 +9,9 @@ public class Peixe extends Animal {
         this.corEscama = corEscama;
     }
 
-    public void soltarBoilhas() {
-        
+    public void soltarBolhas() {
+        System.out.println("Bolhas");
     }
+
+    
 }
