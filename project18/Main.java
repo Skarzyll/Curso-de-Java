@@ -28,6 +28,7 @@ public class Main {
         p1.setPeso(0.300f);
         p1.setMembros(4);
         p1.setCorEscama("Marrom");
+        p1.soltarBolhas();
         p1.locomover();
         p1.alimentar();
         p1.emitirSom();
