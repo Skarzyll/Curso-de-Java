@@ -12,6 +12,16 @@ public class Main {
         m1.alimentar();
         m1.emitirSom();
 
+        Reptil r1 = new Reptil();
+
+        r1.setIdade(2);
+        r1.setPeso(0.300f);
+        r1.setMembros(4);
+        r1.setCorEscama("Marrom");
+        r1.locomover();
+        r1.alimentar();
+        r1.emitirSom();
+
         
     }
 }
