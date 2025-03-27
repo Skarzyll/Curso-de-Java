@@ -33,6 +33,15 @@ public class Main {
         p1.alimentar();
         p1.emitirSom();
 
-        
+        Ave av1 = new Ave();
+
+        av1.setIdade(2);
+        av1.setPeso(0.300f);
+        av1.setMembros(4);
+        av1.setCorPena("Marrom");
+        av1.fazerNinho();
+        av1.locomover();
+        av1.alimentar();
+        av1.emitirSom();
     }
 }
