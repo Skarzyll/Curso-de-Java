@@ -26,15 +26,7 @@ public abstract class Animal {
         this.membros = membros;
     }
 
-    public void locomover(){
-        
-    }
-
-    public void alimentar() {
-
-    }
-
-    public void emitirSom() {
-        
-    }
+    public void locomover(){}
+    public void alimentar(){}
+    public void emitirSom(){}
 }
