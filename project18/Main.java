@@ -49,5 +49,19 @@ public class Main {
         av1.locomover();
         av1.alimentar();
         av1.emitirSom();
+
+        System.out.println("---------%%--------");
+
+        Canguru can1 = new Canguru();
+
+        can1.setIdade(2);
+        can1.setPeso(0.300f);
+        can1.setMembros(4);
+        can1.usarBolsa();
+        can1.locomover();
+        can1.alimentar();
+        can1.emitirSom();
+
+        
     }
 }
