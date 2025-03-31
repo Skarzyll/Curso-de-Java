@@ -110,5 +110,18 @@ public class Main {
         go1.locomover();
         go1.alimentar();
         go1.emitirSom();
+
+        System.out.println("---------%%--------");
+
+        Arara ara1 = new Arara();
+
+        ara1.setIdade(2);
+        ara1.setPeso(0.300f);
+        ara1.setMembros(4);
+        ara1.setCorPena("Marrom");
+        ara1.fazerNinho();
+        ara1.locomover();
+        ara1.alimentar();
+        ara1.emitirSom();
     }
 }
