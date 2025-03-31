@@ -62,6 +62,15 @@ public class Main {
         can1.alimentar();
         can1.emitirSom();
 
-        
+        System.out.println("---------%%--------");
+
+        Cachorro ca1 = new Cachorro();
+
+        ca1.setIdade(2);
+        ca1.setPeso(0.300f);
+        ca1.setMembros(4);
+        ca1.locomover();
+        ca1.alimentar();
+        ca1.emitirSom();
     }
 }
