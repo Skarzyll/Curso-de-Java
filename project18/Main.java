@@ -74,6 +74,16 @@ public class Main {
         ca1.alimentar();
         ca1.emitirSom();
 
-        
+        System.out.println("---------%%--------");
+
+        Cobra co1 = new Cobra();
+
+        co1.setIdade(2);
+        co1.setPeso(0.300f);
+        co1.setMembros(4);
+        co1.setCorEscama("Marrom");
+        co1.locomover();
+        co1.alimentar();
+        co1.emitirSom();
     }
 }
