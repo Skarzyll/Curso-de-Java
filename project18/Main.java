@@ -85,5 +85,17 @@ public class Main {
         co1.locomover();
         co1.alimentar();
         co1.emitirSom();
+
+        System.out.println("---------%%--------");
+
+        Tartaruga t1 = new Tartaruga();
+
+        t1.setIdade(2);
+        t1.setPeso(0.300f);
+        t1.setMembros(4);
+        t1.setCorEscama("Marrom");
+        t1.locomover();
+        t1.alimentar();
+        t1.emitirSom();
     }
 }
