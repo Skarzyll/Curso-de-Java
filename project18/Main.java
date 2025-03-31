@@ -69,8 +69,11 @@ public class Main {
         ca1.setIdade(2);
         ca1.setPeso(0.300f);
         ca1.setMembros(4);
+        ca1.guardarOsso();
         ca1.locomover();
         ca1.alimentar();
         ca1.emitirSom();
+
+        
     }
 }
