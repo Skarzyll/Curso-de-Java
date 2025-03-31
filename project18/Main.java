@@ -97,5 +97,18 @@ public class Main {
         t1.locomover();
         t1.alimentar();
         t1.emitirSom();
+
+        System.out.println("---------%%--------");
+
+        Goldfish go1 = new Goldfish();
+
+        go1.setIdade(2);
+        go1.setPeso(0.300f);
+        go1.setMembros(4);
+        go1.setCorEscama("Dourado");
+        go1.soltarBolhas();
+        go1.locomover();
+        go1.alimentar();
+        go1.emitirSom();
     }
 }
