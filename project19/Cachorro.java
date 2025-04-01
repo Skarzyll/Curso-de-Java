@@ -25,7 +25,6 @@ public class Cachorro extends Lobo{
     }
 
     public void reagir(boolean dono) {
-        //String res = (dono == true) ? "abanar" : "rosnar e latira";
         System.out.println((dono == true) ? "abanar" : "rosnar e latira");
     }
 
