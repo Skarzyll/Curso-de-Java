@@ -1,4 +1,4 @@
-public class Cachorro extends Mamifero{
+/* public class Cachorro extends Mamifero{
     public void guardarOsso() {
         System.out.println("Guardou osso");
     }
@@ -7,3 +7,4 @@ public class Cachorro extends Mamifero{
         System.out.println("Abanou Rabo");
     }
 }
+ */

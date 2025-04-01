@@ -1,4 +1,4 @@
-public class Peixe extends Animal {
+/* public class Peixe extends Animal {
     private String corEscama;
 
     public String getCorEscama() {
@@ -28,3 +28,4 @@ public class Peixe extends Animal {
         System.out.println("Som de peixe");
     }
 }
+ */

@@ -1,4 +1,4 @@
-public class Ave extends Animal {
+/* public class Ave extends Animal {
     private String corPena;
 
     public String getCorPena() {
@@ -28,3 +28,4 @@ public class Ave extends Animal {
         System.out.println("Som de ave");
     }
 }
+ */

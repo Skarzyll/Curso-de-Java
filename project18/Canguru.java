@@ -1,4 +1,4 @@
-public class Canguru extends Mamifero{
+/* public class Canguru extends Mamifero{
     public void usarBolsa() {
         System.out.println("Guardou filhote");
     }
@@ -8,3 +8,4 @@ public class Canguru extends Mamifero{
         System.out.println("Saltando");
     }
 }
+ */

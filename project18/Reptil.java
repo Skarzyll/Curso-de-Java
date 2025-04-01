@@ -1,4 +1,4 @@
-public class Reptil extends Animal {
+/* public class Reptil extends Animal {
     private String corEscama;
 
     public String getCorEscama() {
@@ -24,3 +24,4 @@ public class Reptil extends Animal {
         System.out.println("Som de reptil");
     }
 }
+ */

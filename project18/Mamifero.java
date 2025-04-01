@@ -1,4 +1,4 @@
-public class Mamifero extends Animal {
+/* public class Mamifero extends Animal {
     private String corPelo;
 
     public String getCorPelo() {
@@ -24,3 +24,4 @@ public class Mamifero extends Animal {
         System.out.println("Som de mamifero");
     }
 }
+ */

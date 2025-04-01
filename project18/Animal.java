@@ -1,4 +1,4 @@
-public abstract class Animal {
+/* public abstract class Animal {
     private float peso;
     private int   idade, membros;
 
@@ -30,3 +30,4 @@ public abstract class Animal {
     public void alimentar(){}
     public void emitirSom(){}
 }
+ */

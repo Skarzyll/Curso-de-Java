@@ -1,4 +1,4 @@
-public class Main {
+/* public class Main {
     public static void main(String[] args) {
         //Animal a1 = new Animal(); CLASSE ABSTRATA NAO PODE SER INSTANCIADA
 
@@ -125,3 +125,4 @@ public class Main {
         ara1.emitirSom();
     }
 }
+ */
