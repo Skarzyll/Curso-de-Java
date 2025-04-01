@@ -27,8 +27,12 @@ public class Main {
         ca1.setCorPelo("Marrom");
         ca1.setIdade(7);
         ca1.setMembros(4);
-        ca1.setPeso(70.7f);
+        ca1.setPeso(8.7f);
         ca1.emitirSom();
+        ca1.reagir(true);
+        ca1.reagir("ola");
+        ca1.reagir(10, 0);
+        ca1.reagir(ca1.getIdade(), 3.4f);
 
         System.out.println("------------%%--------------");
     }
