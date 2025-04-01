@@ -22,6 +22,14 @@ public class Main {
 
         System.out.println("------------%%--------------");
 
-        
+        Cachorro ca1 = new Cachorro();
+
+        ca1.setCorPelo("Marrom");
+        ca1.setIdade(7);
+        ca1.setMembros(4);
+        ca1.setPeso(70.7f);
+        ca1.emitirSom();
+
+        System.out.println("------------%%--------------");
     }
 }
