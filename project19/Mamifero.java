@@ -1,4 +1,4 @@
-package project19;
+/* package project19;
 
 public class Mamifero extends Animal{
     protected String corPelo;
@@ -16,3 +16,4 @@ public class Mamifero extends Animal{
         System.out.println("Som de mamifero");
     }
 }
+ */

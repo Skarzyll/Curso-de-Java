@@ -1,4 +1,4 @@
-package project19;
+/* package project19;
 
 public class Lobo extends Mamifero{
     @Override
@@ -6,3 +6,4 @@ public class Lobo extends Mamifero{
         System.out.println("Auuuuuuuuu");
     }
 }
+ */

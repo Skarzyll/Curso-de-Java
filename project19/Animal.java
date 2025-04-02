@@ -1,4 +1,4 @@
-package project19;
+/* package project19;
 
 public abstract class Animal {
     protected float peso;
@@ -30,3 +30,4 @@ public abstract class Animal {
 
     public abstract void emitirSom();
 }
+ */
