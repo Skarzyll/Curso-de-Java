@@ -44,6 +44,12 @@ public class Video implements AcoesVideo {
     }
 
     @Override
+    public String toString() {
+        return "Video [title=" + title + ", avaliacao=" + avaliacao + ", views=" + views + ", curtidas=" + curtidas
+                + ", reproduzindo=" + reproduzindo + "]";
+    }
+
+    @Override
     public void play() {}
 
     @Override

@@ -1,12 +1,12 @@
-public class Gafanhoto {
-    private boolean login;
+public class Gafanhoto extends Pessoa {
+    private String login;
     private int     totAssistindo;
 
-    public boolean isLogin() {
+    public String isLogin() {
         return login;
     }
 
-    public void setLogin(boolean login) {
+    public void setLogin(String login) {
         this.login = login;
     }
 
@@ -16,6 +16,11 @@ public class Gafanhoto {
 
     public void setTotAssistindo(int totAssistindo) {
         this.totAssistindo = totAssistindo;
+    }
+
+    @Override
+    public String toString() {
+        return "Gafanhoto [login=" + login + ", totAssistindo=" + totAssistindo + "]";
     }
 
     public void viewMaisUm() {}
