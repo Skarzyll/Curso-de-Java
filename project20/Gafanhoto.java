@@ -18,4 +18,5 @@ public class Gafanhoto {
         this.totAssistindo = totAssistindo;
     }
 
+    public void viewMaisUm() {}
 }
