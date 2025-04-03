@@ -55,7 +55,9 @@ public class Video implements AcoesVideo {
     }
 
     @Override
-    public void pause() {}
+    public void pause() {
+        this.reproduzindo = true;
+    }
 
     @Override
     public void like() {}
