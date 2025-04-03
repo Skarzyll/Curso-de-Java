@@ -60,6 +60,8 @@ public class Video implements AcoesVideo {
     }
 
     @Override
-    public void like() {}
+    public void like() {
+        this.curtidas++;
+    }
 
 }
