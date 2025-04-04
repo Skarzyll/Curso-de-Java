@@ -2,6 +2,12 @@ public class Gafanhoto extends Pessoa {
     private String login;
     private int     totAssistindo;
 
+    public Gafanhoto(String nome, int idade, String sexo, String login) {
+        super(nome,login, sexo, idade);
+        this.login =login;
+        this.totAssistindo = 0;
+    }
+
     public String isLogin() {
         return login;
     }

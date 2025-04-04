@@ -1,25 +1,26 @@
 public class Main {
     public static void main(String[] args) {
-        Video v1 = new Video();
+        Video v[] = new Video[3];
 
-        v1.setTitle("Curso em video");
-        v1.setCurtidas(7);
-        v1.setReproduzindo(true);
-        v1.setAvaliacao(5);
-        v1.setViews(8000000);
-        v1.like();
-        v1.pause();
-        v1.play();
-        v1.isReproduzindo();
+        v[0] = new Video("Aula de Java", 0, 0, 0, true);
+        v[0].like();
+        v[0].pause();
+        v[0].play();
+        v[0].isReproduzindo();
 
-        Gafanhoto g1 = new Gafanhoto();
+        Gafanhoto g[] = new Gafanhoto[3];
 
-        g1.setLogin("Logado");
-        g1.setTotAssistindo(3);
-        g1.ganharExp();
-        g1.viewMaisUm();
+        g[0] = new Gafanhoto("Caio", 21, "M", "Logado");
+        g[0].ganharExp();
+        g[0].viewMaisUm();
 
-        System.out.println(v1.toString());
-        System.out.println(g1.toString());
+        System.out.println(v[0].toString());
+        System.out.println(g[0].toString());
+
+        View vis = new View(g[0], v[0]);
+
+        vis.avaliar(35.3f);
+
+        System.out.println(vis.toString());
     }
 }

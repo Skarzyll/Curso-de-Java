@@ -1,6 +1,13 @@
 public abstract class Pessoa {
-    protected String nome, sexo, expreciencia;
+    protected String nome, sexo, expericiencia;
     protected int    idade;
+
+    public Pessoa(String nome, String login, String expericiencia, int idade) {
+        this.nome = nome;
+        this.sexo = login;
+        this.expericiencia = expericiencia;
+        this.idade = 0;
+    }
 
     public String getNome() {
         return nome;
@@ -18,12 +25,12 @@ public abstract class Pessoa {
         this.sexo = sexo;
     }
 
-    public String getExpreciencia() {
-        return expreciencia;
+    public String getExpericiencia() {
+        return expericiencia;
     }
 
-    public void setExpreciencia(String expreciencia) {
-        this.expreciencia = expreciencia;
+    public void setExpericiencia(String expericiencia) {
+        this.expericiencia = expericiencia;
     }
 
     public int getIdade() {
