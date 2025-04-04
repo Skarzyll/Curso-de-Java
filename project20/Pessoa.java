@@ -1,4 +1,4 @@
-public abstract class Pessoa {
+/* public abstract class Pessoa {
     protected String nome, sexo, expericiencia;
     protected int    idade;
 
@@ -43,3 +43,4 @@ public abstract class Pessoa {
 
     protected void ganharExp() {}
 }
+ */

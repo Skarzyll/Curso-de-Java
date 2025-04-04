@@ -1,4 +1,4 @@
-public class Video implements AcoesVideo {
+/* public class Video implements AcoesVideo {
     private String  title;
     private int     avaliacao, views, curtidas;
     private boolean reproduzindo;
@@ -76,3 +76,4 @@ public class Video implements AcoesVideo {
     }
 
 }
+ */
