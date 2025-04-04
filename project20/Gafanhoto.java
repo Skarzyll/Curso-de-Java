@@ -23,5 +23,7 @@ public class Gafanhoto extends Pessoa {
         return "Gafanhoto [login=" + login + ", totAssistindo=" + totAssistindo + "]";
     }
 
-    public void viewMaisUm() {}
+    public void viewMaisUm() {
+        this.totAssistindo++;
+    }
 }

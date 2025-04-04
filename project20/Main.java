@@ -7,11 +7,17 @@ public class Main {
         v1.setReproduzindo(true);
         v1.setAvaliacao(5);
         v1.setViews(8000000);
+        v1.like();
+        v1.pause();
+        v1.play();
+        v1.isReproduzindo();
 
         Gafanhoto g1 = new Gafanhoto();
 
         g1.setLogin("Logado");
         g1.setTotAssistindo(3);
+        g1.ganharExp();
+        g1.viewMaisUm();
 
         System.out.println(v1.toString());
         System.out.println(g1.toString());
