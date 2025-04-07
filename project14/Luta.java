@@ -1,5 +1,3 @@
-/* package project14;
-
 import java.util.Random;
 
 public class Luta {
@@ -92,4 +90,3 @@ public class Luta {
         }
     }
 }
- */

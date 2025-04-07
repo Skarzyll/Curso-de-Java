@@ -1,5 +1,3 @@
-/* package project14;
-
 public interface InteLutador {
     abstract void apresentar();
     abstract void status();
@@ -7,4 +5,3 @@ public interface InteLutador {
     abstract void perderLuta();
     abstract void empatarLuta();
 }
- */

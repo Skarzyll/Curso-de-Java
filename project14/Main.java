@@ -1,7 +1,8 @@
-/* package project14;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+        ArrayList<Lutador> lutadores = new ArrayList<Lutador>();
         Lutador lutadores[] = new Lutador[2];
         Luta pri = new Luta();
 
@@ -14,4 +15,3 @@ public class Main {
         pri.lutar();
     }   
 }
- */
