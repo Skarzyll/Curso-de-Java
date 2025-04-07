@@ -1,4 +1,4 @@
-import java.util.Random;
+/* import java.util.Random;
 
 public class Luta {
     private Lutador desafiado, desafiante;
@@ -90,3 +90,4 @@ public class Luta {
         }
     }
 }
+ */

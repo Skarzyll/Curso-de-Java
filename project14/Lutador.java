@@ -1,4 +1,4 @@
-public class Lutador implements InteLutador {
+/* public class Lutador implements InteLutador {
     private String nome, nacionalidade, categoria;
     private int idade, vitorias, derrotas, empates;
     private float altura, peso;
@@ -145,4 +145,4 @@ public class Lutador implements InteLutador {
     public void empatarLuta() {
         this.setEmpates(this.getEmpates() + 1);
     }
-}
+} */
