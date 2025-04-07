@@ -12,7 +12,8 @@ public class Main {
         //lutadores[1] = new Lutador("Lucas", "Americano", 23, 1.65f, 111f, 5, 7, 8);
         lutadores.add(1, new Lutador("Lucas", "Americano", 23, 1.65f, 111f, 5, 7, 8));
 
-        pri.marcarLuta(lutadores[0], lutadores[1]);
+        //pri.marcarLuta(lutadores[0], lutadores[1]);
+        pri.marcarLuta(lutadores.get(0), lutadores.get(1));
         
         pri.lutar();
     }   
