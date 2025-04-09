@@ -1,4 +1,4 @@
-/* public class Gafanhoto extends Pessoa {
+public class Gafanhoto extends Pessoa {
     private String login;
     private int     totAssistindo;
 
@@ -33,4 +33,3 @@
         this.totAssistindo++;
     }
 }
- */

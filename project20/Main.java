@@ -1,12 +1,21 @@
-/* public class Main {
-    public static void main(String[] args) {
-        Video v[] = new Video[3];
+import java.util.ArrayList;
 
-        v[0] = new Video("Aula de Java", 0, 0, 0, true);
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<Video> v = new ArrayList<Video>();
+        //Video v[] = new Video[3];
+
+        v.set(0, new Video("Aula de Java", 0, 0, 0, true));
+        v.get(0).like();
+        v.get(0).pause();
+        v.get(0).play();
+        v.get(0).isReproduzindo();
+        
+        /*  v[0] = new Video("Aula de Java", 0, 0, 0, true);
         v[0].like();
         v[0].pause();
         v[0].play();
-        v[0].isReproduzindo();
+        v[0].isReproduzindo(); */
 
         Gafanhoto g[] = new Gafanhoto[3];
 
@@ -24,4 +33,3 @@
         System.out.println(vis.toString());
     }
 }
- */

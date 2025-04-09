@@ -1,4 +1,4 @@
-/* public class View {
+public class View {
     private Gafanhoto espectador;
     private Video     video;
 
@@ -53,4 +53,3 @@
         return "View [espectador=" + espectador + ", video=" + video + "]";
     }
 }
- */
