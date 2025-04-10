@@ -20,14 +20,14 @@ public class Main {
         ArrayList<Gafanhoto> g = new ArrayList<Gafanhoto>();
         //Gafanhoto g[] = new Gafanhoto[3];
 
-        g[0] = new Gafanhoto("Caio", 21, "M", "Logado");
-        g[0].ganharExp();
-        g[0].viewMaisUm();
+        g.set(0, new Gafanhoto("Caio", 21, "M", "Logado"));
+        g.get(0).ganharExp();
+        g.get(0).viewMaisUm();
 
-        System.out.println(v[0].toString());
-        System.out.println(g[0].toString());
+        System.out.println(v.get(0).toString());
+        System.out.println(g.get(0).toString());
 
-        View vis = new View(g[0], v[0]);
+        View vis = new View(g.get(0), v.get(0));
 
         vis.avaliar(35.3f);
 
