@@ -17,7 +17,8 @@ public class Main {
         v[0].play();
         v[0].isReproduzindo(); */
 
-        Gafanhoto g[] = new Gafanhoto[3];
+        ArrayList<Gafanhoto> g = new ArrayList<Gafanhoto>();
+        //Gafanhoto g[] = new Gafanhoto[3];
 
         g[0] = new Gafanhoto("Caio", 21, "M", "Logado");
         g[0].ganharExp();
