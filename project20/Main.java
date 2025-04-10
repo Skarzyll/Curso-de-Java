@@ -5,7 +5,7 @@ public class Main {
         ArrayList<Video> v = new ArrayList<Video>();
         //Video v[] = new Video[3];
 
-        v.set(0, new Video("Aula de Java", 0, 0, 0, true));
+        v.add(0, new Video("Aula de Java", 0, 0, 0, true));
         v.get(0).like();
         v.get(0).pause();
         v.get(0).play();
@@ -20,9 +20,13 @@ public class Main {
         ArrayList<Gafanhoto> g = new ArrayList<Gafanhoto>();
         //Gafanhoto g[] = new Gafanhoto[3];
 
-        g.set(0, new Gafanhoto("Caio", 21, "M", "Logado"));
+        g.add(0, new Gafanhoto("Caio", 21, "M", "Logado"));
         g.get(0).ganharExp();
         g.get(0).viewMaisUm();
+        
+        /* g[0] = new Gafanhoto("Caio", 21, "M", "Logado");
+        g[0].ganharExp();
+        g[0].viewMaisUm(); */
 
         System.out.println(v.get(0).toString());
         System.out.println(g.get(0).toString());
