@@ -11,11 +11,11 @@ public class Main {
         v.get(0).play();
         v.get(0).isReproduzindo();
         
-        /*  v[0] = new Video("Aula de Java", 0, 0, 0, true);
-        v[0].like();
-        v[0].pause();
-        v[0].play();
-        v[0].isReproduzindo(); */
+        //v[0] = new Video("Aula de Java", 0, 0, 0, true);
+        //v[0].like();
+        //v[0].pause();
+        //v[0].play();
+        //v[0].isReproduzindo();
 
         ArrayList<Gafanhoto> g = new ArrayList<Gafanhoto>();
         //Gafanhoto g[] = new Gafanhoto[3];
@@ -24,9 +24,9 @@ public class Main {
         g.get(0).ganharExp();
         g.get(0).viewMaisUm();
         
-        /* g[0] = new Gafanhoto("Caio", 21, "M", "Logado");
-        g[0].ganharExp();
-        g[0].viewMaisUm(); */
+        //g[0] = new Gafanhoto("Caio", 21, "M", "Logado");
+        //g[0].ganharExp();
+        //g[0].viewMaisUm();
 
         System.out.println(v.get(0).toString());
         System.out.println(g.get(0).toString());
