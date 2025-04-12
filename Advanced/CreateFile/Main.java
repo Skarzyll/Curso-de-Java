@@ -18,9 +18,11 @@ public class Main {
 
             Scanner sc = new Scanner(f); //Cria umaa nova instancia para escanear/ler arquivo passado por parametro
 
-            fw.write("SELECT * TABLES FROM db;"); //Escreve codigo SQL no arquivo .sql
+            String t = "TABLES"; //Possivel concatenar para futura manipulacao de DB
+
+            fw.write("SELECT * " + t + " FROM db;"); //Escreve codigo SQL no arquivo .sql
             
-            if (f.exists() /* verifica se ele existe */) {
+            if (f.exists()) { //Verifica se ele existe 
                 System.out.println("File name: " + f.getName());
                 System.out.println("Absolute path: " + f.getAbsolutePath()); //Printa o diretorio completo
                 System.out.println("Writeable: " + f.canWrite()); //Boolean se pode ser escrito
