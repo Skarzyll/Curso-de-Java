@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Advanced.p.Main",
+            "projectName": "Curso-de-Java_f225de32"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Advanced.TryCatch.Main",
             "projectName": "Curso-de-Java_f225de32"
         },
