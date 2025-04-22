@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class Main {
     public static void main(String[] args) {
-        Queue<Integer> q = new LinkedList<Integer>();
+        Queue<Integer> q = new LinkedList<>();
 
         q.add(1);
         q.add(2);
@@ -16,6 +16,11 @@ public class Main {
 
         System.out.println(ele1);
         System.out.println(eled);
+
+        q.forEach((elem) -> {
+            System.out.println(elem);
+        });
+
         System.out.println(q.size());
     }
 }
