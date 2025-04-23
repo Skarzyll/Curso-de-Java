@@ -1,12 +1,15 @@
+import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
-        Deque<Integer> deq = new LinkedList<Integer>();
+        Deque<Integer> deq = new ArrayDeque<>();
 
-        deq.add(1);
+        deq.addLast(-1);
+        deq.addFirst(1);
         deq.add(2);
+
+        deq.forEach((ele) -> System.out.println(ele));
         
     }
 }
