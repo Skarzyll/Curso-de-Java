@@ -1,4 +1,4 @@
-package Advanced.Optional;
+/* package Advanced.Optional;
 
 import java.util.Optional;
 
@@ -11,11 +11,11 @@ public class Main {
         //op.ifPresent( v -> System.out.println(v) );
         System.out.println(op.orElseGet(() -> "RISOSOSOSOS"));
 
-        /* if (op.isEmpty()) {
+         if (op.isEmpty()) {
             op = Optional.of("kkkk");
             System.out.println(op.get());
         } else {
             System.out.println(op.get());
-        } */
+        }
     }
-}
+}*/

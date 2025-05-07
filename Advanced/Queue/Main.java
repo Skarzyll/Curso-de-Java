@@ -1,4 +1,4 @@
-package Advanced.Queue;
+/* package Advanced.Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -24,3 +24,4 @@ public class Main {
         System.out.println(q.size());
     }
 }
+ */

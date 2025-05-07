@@ -1,4 +1,4 @@
-package Advanced.TryCatch;
+/* package Advanced.TryCatch;
 
 import java.util.ArrayList;
 
@@ -20,3 +20,4 @@ public class Main {
         }
     }
 }
+ */

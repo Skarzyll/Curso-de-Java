@@ -1,13 +1,13 @@
-package Advanced.Thread;
+/* package Advanced.Thread;
 
-public class Main implements Runnable /* extends Thread */ { //Extende thread ou implementa o Runnable
-
+public class Main implements Runnable  { //Extende thread ou implementa o Runnable
+    //extends Thread
     public static int count = 0;
 
     public static void main(String[] args) {
         Main m = new Main(); //Cria uma variavel do tipo Main
 
-        /* t.start(); */ //Inicia a execucao do thread e chama a funcao run
+        // t.start();  //Inicia a execucao do thread e chama a funcao run
 
         Thread t = new Thread(m); //Crio uma nova instancia de Thread e passo a variavel de main como parametro
 
@@ -27,3 +27,4 @@ public class Main implements Runnable /* extends Thread */ { //Extende thread ou
         count++;
     }
 }
+ */

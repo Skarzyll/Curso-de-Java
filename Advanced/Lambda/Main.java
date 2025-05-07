@@ -1,4 +1,4 @@
-package Advanced.Lambda;
+/* package Advanced.Lambda;
 
 interface StringFunction {
     String run(String str);
